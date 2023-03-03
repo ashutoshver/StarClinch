@@ -300,14 +300,14 @@ b {
 
 /*--------------------------------------------Media Query---------------------------------------*/
 
-@media(min-width:360px) and (max-width:414px) {
+@media(min-width:360px) and (max-width:444px) {
 
   .time {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
   }
 
   .singers {

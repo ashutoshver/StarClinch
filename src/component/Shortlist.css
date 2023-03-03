@@ -309,9 +309,9 @@ b {
     flex-wrap: wrap;
     gap: 30px;
   }
-  .date{
+  /* .date{
     margin-right: 20px;
-  }
+  } */
   .location{
     margin-left: 20px;
   }

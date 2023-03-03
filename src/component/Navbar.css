@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.navbar_margin {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media(min-width:360px) and (max-width:414px) {
+  .navbar {
+    width: 100vw;
+  }
+
+  .navbar_margin {
+    width: 95%;
+    margin-right: 20px;
+  }
+}

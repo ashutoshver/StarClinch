@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import Navbar from './component/Navbar';
+import Shortlist from './component/Shortlist';
+import Terms from "./component/Terms/Terms";
+import Footer from "./component/Footer/Footer";
+import Card from './component/Cards/Card';
+import Loading from './component/Cards/Loading';
+
+
 
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar />
+      <Shortlist />
+      {loading ? <Loading/> : <Card />}
+      <Terms />
+      <Footer />
+    </>
+  )
 }
 
 export default App;

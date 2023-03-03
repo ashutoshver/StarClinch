@@ -1,0 +1,372 @@
+* {
+  font-style: normal;
+  font-family: 'Inter';
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+.detail {
+  margin: 5px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+.time span {
+  font-size: 27px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+}
+
+.singers {
+  text-align: center;
+  margin-top: 30px;
+  visibility: hidden;
+}
+
+.select_artist {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 300;
+}
+
+.bg_black {
+  background-color: black;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 60px;
+}
+
+.card {
+  width: 321px;
+  margin-top: 70px;
+}
+
+.singer_image {
+  width: 321px;
+  height: 483px;
+  border-radius: 20px;
+}
+
+.singer_details {
+  position: relative;
+}
+
+.details {
+  box-sizing: border-box;
+  position: absolute;
+  width: 321px;
+  height: 220px;
+  top: 263px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 100%);
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(25px);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: 0.5px solid white;
+  text-align: center;
+  color: #ffffff;
+}
+
+.details h3 {
+  font-size: 23px;
+}
+
+.details .place {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 60px;
+}
+
+.booking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 17px;
+}
+
+.gallery img {
+  width: 49px;
+  height: 49px;
+  border-radius: 6px;
+}
+
+
+.select {
+  width: 321px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 7px;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+/*--------------------------TERMS--------------------------------------------------*/
+
+.terms {
+  background-color: black;
+  color: white;
+  margin-top: 5rem;
+  padding: 20px;
+}
+
+.terms_details {
+  width: 80%;
+  margin: auto;
+}
+
+.users_trust h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.users_trust p {
+  text-align: center;
+  color: #C8A870;
+  font-size: 20px;
+}
+
+.booking_terms h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.booking_terms p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.other_details {
+  margin-top: 6rem;
+  font-size: 20px;
+}
+
+/*--------------------------LOADING--------------------------------------------------*/
+
+.loading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading img {
+  width: 346.67px;
+  height: 260px;
+}
+
+.loading p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/*--------------------------FOOTER--------------------------------------------------*/
+
+.footer {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 20px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+b {
+  font-size: 30px;
+}
+
+.foot_log {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon {
+  margin-left: 40px;
+}
+
+.icon span {
+  margin: 10px;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.buyers_aboutus p {
+  color: #18BC9C;
+  margin-top: 10px;
+}
+
+.aboutUs {
+  margin-top: 10px;
+}
+
+.artist_policy p {
+  color: #18BC9C;
+  margin-top: 10px;
+}
+
+.policy {
+  margin-top: 10px;
+}
+
+.registered h3 {
+  margin-bottom: 6px;
+}
+
+.registered p {
+  line-height: 20px;
+}
+
+.registered .contactUs {
+  margin-top: 10px;
+  color: #18BC9C;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.copyright span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.payment_icon img {
+  width: 40px;
+  height: 20px;
+  margin: 10px;
+}
+
+.green {
+  color: #18BC9C;
+}
+
+
+/*--------------------------------------------Media Query---------------------------------------*/
+
+@media(min-width:360px) and (max-width:414px) {
+
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .singers {
+    visibility: visible;
+    font-size: 26px;
+  }
+
+    .terms_details{
+      width: 95%;
+      margin: auto;
+    }
+  .users_trust h1 {
+    font-size: 20px;
+  }
+
+  .users_trust p {
+    font-size: 16px;
+  }
+
+  .booking_terms h1 {
+    display: none;
+  }
+
+  .booking_terms p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .other_details{
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 20px;
+  }
+.footer{
+  width: 90%;
+  margin: auto;
+}
+  .footer_logo{
+    display: flex;
+    justify-content: center;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+  }
+  .footer_content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .policy{
+    margin-top: 36px;
+  }
+  .registered{
+    margin-top: 40px;
+  }
+  .payment_icon img{
+    width: 30px;
+  }
+    .copyright span {
+      font-size: 11px;
+      font-weight: 400;
+    }
+}
